@@ -11,6 +11,6 @@ public class Controller {
     @GetMapping
     public String message(){
 
-        return "Hello World through ngrok";
+        return "Hello World through ng-rok";
     }
 }
