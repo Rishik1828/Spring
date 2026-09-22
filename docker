@@ -1,0 +1,9 @@
+FROM eclipse-temurin
+
+WORKDIR /app
+
+COPY  target/*.jar prac.jar
+
+EXPOSE 8085
+
+ENTRYPOINT ["java", "-jar", "prac.jar"]
